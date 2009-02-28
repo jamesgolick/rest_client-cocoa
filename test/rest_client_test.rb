@@ -7,21 +7,17 @@ class RestClientTest < Test::Unit::TestCase
       @expected_body = URI.parse(url).read
       @body          = ""
       @finished      = false
-      delegate       = Object.new do
-        define_method(:didFinishLoading) do |body|
-          puts 'asd'
-          @body << body
-          @finished = true
-        end
-      end
-
-      while !@finished do
-      end
 
       OSX::RestClient.alloc.initWithString_delegate(url, delegate)
     end
 
     expect { assert_equal @expected_body, @body }
+  end
+
+  context "methodWithNoReturn" do
+    it "should not return stuff" do
+      assert_nil OSX::RestClient.methodWithNoReturn
+    end
   end
 end
 

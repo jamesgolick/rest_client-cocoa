@@ -14,5 +14,6 @@
 }
 
 -(id) initWithString: (NSString *) urlAsString delegate: (id) delegate;
++(NSString *) methodWithNoReturn;
 
 @end

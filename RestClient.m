@@ -39,4 +39,8 @@ id delegate;
   [delegate didFinishLoading: [[NSString alloc] initWithData: receivedData]];
 }
 
++(NSString *) methodWithNoReturn {
+  [NSURL URLWithString: @"http://google.ca"];
+}
+
 @end
