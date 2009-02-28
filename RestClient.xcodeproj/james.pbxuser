@@ -3,6 +3,9 @@
 	0867D690FE84028FC02AAC07 /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeTarget = 8DC2EF4F0486A6940098B216 /* RestClient */;
+		addToTargets = (
+			8DC2EF4F0486A6940098B216 /* RestClient */,
+		);
 		codeSenseManager = 1AC2FF5A0F597C8300FBEAD8 /* Code sense */;
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
@@ -12,7 +15,7 @@
 					20,
 					341,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -27,8 +30,14 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 257522809;
-			PBXWorkspaceStateSaveDate = 257522809;
+			PBXPerProjectTemplateStateSaveDate = 257526659;
+			PBXWorkspaceStateSaveDate = 257526659;
+		};
+		perUserProjectItems = {
+			1AC2FF680F598BA900FBEAD8 /* PBXTextBookmark */ = 1AC2FF680F598BA900FBEAD8 /* PBXTextBookmark */;
+			1AC2FF690F598BA900FBEAD8 /* PBXBookmark */ = 1AC2FF690F598BA900FBEAD8 /* PBXBookmark */;
+			1AC2FF6A0F598BA900FBEAD8 /* PBXTextBookmark */ = 1AC2FF6A0F598BA900FBEAD8 /* PBXTextBookmark */;
+			1AC2FF6B0F598BA900FBEAD8 /* PBXTextBookmark */ = 1AC2FF6B0F598BA900FBEAD8 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1AC2FF590F597C8300FBEAD8 /* Source Control */;
 		userBuildSettings = {
@@ -44,6 +53,55 @@
 	1AC2FF5A0F597C8300FBEAD8 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	1AC2FF5C0F597D0000FBEAD8 /* RestClient.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {588, 357}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{137, 221}";
+		};
+	};
+	1AC2FF5D0F597D0000FBEAD8 /* RestClient.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {660, 595}}";
+			sepNavSelRange = "{718, 0}";
+			sepNavVisRange = "{357, 370}";
+			sepNavWindowFrame = "{{15, 4}, {1296, 774}}";
+		};
+	};
+	1AC2FF680F598BA900FBEAD8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1AC2FF5C0F597D0000FBEAD8 /* RestClient.h */;
+		name = "RestClient.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 221;
+		vrLoc = 137;
+	};
+	1AC2FF690F598BA900FBEAD8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1AC2FF5D0F597D0000FBEAD8 /* RestClient.m */;
+	};
+	1AC2FF6A0F598BA900FBEAD8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1AC2FF5C0F597D0000FBEAD8 /* RestClient.h */;
+		name = "RestClient.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 221;
+		vrLoc = 137;
+	};
+	1AC2FF6B0F598BA900FBEAD8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1AC2FF5D0F597D0000FBEAD8 /* RestClient.m */;
+		name = "RestClient.m: 31";
+		rLen = 0;
+		rLoc = 718;
+		rType = 0;
+		vrLen = 370;
+		vrLoc = 357;
 	};
 	8DC2EF4F0486A6940098B216 /* RestClient */ = {
 		activeExec = 0;
